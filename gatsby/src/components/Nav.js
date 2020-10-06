@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Logo from './Logo';
 
 const NavStyles = styled.nav`
+  /* margin-bottom: 3rem; */
   .logo {
     transform: translateY(-25%);
   }
@@ -82,7 +83,7 @@ export default function Nav() {
         <li>
           <Link to="/pizzas">Pizza Menu</Link>
         </li>
-        <li>
+        <li className="logo-item">
           <Link to="/">
             <Logo />
           </Link>
